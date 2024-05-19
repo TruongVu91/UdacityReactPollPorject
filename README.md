@@ -5,8 +5,6 @@
 
 ## How to install and run the project
 
-There are two types of objects stored in our database:
-
 - Clone or download the project to your local PC.
 - Run npm install in the project root directory to install dependencies.
 - Run npm start to launch the project.

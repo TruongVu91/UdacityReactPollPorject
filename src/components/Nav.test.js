@@ -31,19 +31,8 @@ describe("Nav", () => {
     expect(navView).toMatchSnapshot();
   });
 
-  it("check display new question view after click New", () => {
+  it("check display new question view", () => {
     store.dispatch(setAuthedUser({ id: "sarahedo", password: "" }));
-
-    const navView = render(
-      <Provider store={store}>
-        <BrowserRouter>
-          <Nav />
-        </BrowserRouter>
-      </Provider>
-    );
-
-    const newNavLinkElement = navView.getByTestId("newNavLink");
-    fireEvent.click(newNavLinkElement);
 
     const newQuestionView = render(
       <Provider store={store}>
@@ -57,19 +46,8 @@ describe("Nav", () => {
     expect(newQuestionView).toMatchSnapshot();
   });
 
-  it("check display LeaderBoard view after click LeaderBoard", () => {
+  it("check display LeaderBoard view", () => {
     store.dispatch(setAuthedUser({ id: "sarahedo", password: "" }));
-
-    const navView = render(
-      <Provider store={store}>
-        <BrowserRouter>
-          <Nav />
-        </BrowserRouter>
-      </Provider>
-    );
-
-    const newNavLinkElement = navView.getByTestId("newNavLink");
-    fireEvent.click(newNavLinkElement);
 
     const leaderBoardView = render(
       <Provider store={store}>

@@ -59,14 +59,6 @@ describe("Login", () => {
       </Provider>
     );
 
-    const dashboardView = render(
-      <Provider store={store}>
-        <BrowserRouter>
-          <Dashboard />
-        </BrowserRouter>
-      </Provider>
-    );
-
     const loginButtonElement = loginView.getByTestId("loginButton");
     const userSelectElement = loginView.getByTestId("userSelect");
 
@@ -74,7 +66,6 @@ describe("Login", () => {
 
     fireEvent.click(loginButtonElement);
 
-    expect(dashboardView).toBeDefined();
-    expect(dashboardView).toMatchSnapshot();
+    expect(userSelectElement).not.toBeInTheDocument();
   });
 });

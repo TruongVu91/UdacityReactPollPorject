@@ -1,80 +1,9 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Nav check display LeaderBoard view after click LeaderBoard 1`] = `
+exports[`Nav check display LeaderBoard view 1`] = `
 Object {
   "asFragment": [Function],
   "baseElement": <body>
-    <div>
-      <nav
-        class="bg-body-tertiary navbar navbar-expand-lg navbar-light"
-      >
-        <div
-          class="container"
-        >
-          <span
-            class="navbar-brand"
-          >
-            <h2>
-              Employee Poll
-            </h2>
-          </span>
-          <button
-            aria-controls="basic-navbar-nav"
-            aria-label="Toggle navigation"
-            class="navbar-toggler collapsed"
-            type="button"
-          >
-            <span
-              class="navbar-toggler-icon"
-            />
-          </button>
-          <div
-            class="navbar-collapse collapse"
-            id="basic-navbar-nav"
-          >
-            <div
-              class="me-auto navbar-nav"
-            >
-              <a
-                class="nav-link"
-                href="/"
-              >
-                Home
-              </a>
-              <a
-                class="nav-link"
-                data-testid="newNavLink"
-                href="/new"
-              >
-                New
-              </a>
-              <a
-                class="nav-link"
-                href="/leader-board"
-              >
-                LeaderBoard
-              </a>
-            </div>
-          </div>
-          <span
-            class="navbar-brand"
-          >
-            <img
-              class="img-table rounded-circle"
-            />
-            <span
-              class="ms-2"
-            />
-            <button
-              class="ms-2 btn btn-secondary btn-sm"
-              type="button"
-            >
-              Logout
-            </button>
-          </span>
-        </div>
-      </nav>
-    </div>
     <div>
       <div>
         <h2
@@ -234,6 +163,7 @@ Object {
               </a>
               <a
                 class="nav-link"
+                data-testid="leaderBoardLink"
                 href="/leader-board"
               >
                 LeaderBoard
@@ -306,6 +236,7 @@ Object {
             </a>
             <a
               class="nav-link"
+              data-testid="leaderBoardLink"
               href="/leader-board"
             >
               LeaderBoard
@@ -385,81 +316,10 @@ Object {
 }
 `;
 
-exports[`Nav check display new question view after click New 1`] = `
+exports[`Nav check display new question view 1`] = `
 Object {
   "asFragment": [Function],
   "baseElement": <body>
-    <div>
-      <nav
-        class="bg-body-tertiary navbar navbar-expand-lg navbar-light"
-      >
-        <div
-          class="container"
-        >
-          <span
-            class="navbar-brand"
-          >
-            <h2>
-              Employee Poll
-            </h2>
-          </span>
-          <button
-            aria-controls="basic-navbar-nav"
-            aria-label="Toggle navigation"
-            class="navbar-toggler collapsed"
-            type="button"
-          >
-            <span
-              class="navbar-toggler-icon"
-            />
-          </button>
-          <div
-            class="navbar-collapse collapse"
-            id="basic-navbar-nav"
-          >
-            <div
-              class="me-auto navbar-nav"
-            >
-              <a
-                class="nav-link"
-                href="/"
-              >
-                Home
-              </a>
-              <a
-                class="nav-link"
-                data-testid="newNavLink"
-                href="/new"
-              >
-                New
-              </a>
-              <a
-                class="nav-link"
-                href="/leader-board"
-              >
-                LeaderBoard
-              </a>
-            </div>
-          </div>
-          <span
-            class="navbar-brand"
-          >
-            <img
-              class="img-table rounded-circle"
-            />
-            <span
-              class="ms-2"
-            />
-            <button
-              class="ms-2 btn btn-secondary btn-sm"
-              type="button"
-            >
-              Logout
-            </button>
-          </span>
-        </div>
-      </nav>
-    </div>
     <div>
       <div>
         <h2

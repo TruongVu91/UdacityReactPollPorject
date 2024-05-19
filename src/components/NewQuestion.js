@@ -4,7 +4,7 @@ import { handleAddQuestion } from "../actions/questions";
 import Form from "react-bootstrap/Form";
 import Button from "react-bootstrap/Button";
 
-const NewQuestion = ({ dispatch, id }) => {
+const NewQuestion = ({ dispatch }) => {
   //   const navigate = useNavigate();
   const [optionOneText, setOptionOneText] = useState("");
   const [optionTwoText, setOptionTwoText] = useState("");

@@ -28,7 +28,11 @@ const NavBar = ({ dispatch, authedUser }) => {
               <Nav.Link as={Link} to="/new" data-testid="newNavLink">
                 New
               </Nav.Link>
-              <Nav.Link as={Link} to="/leader-board">
+              <Nav.Link
+                as={Link}
+                to="/leader-board"
+                data-testid="leaderBoardLink"
+              >
                 LeaderBoard
               </Nav.Link>
             </Nav>

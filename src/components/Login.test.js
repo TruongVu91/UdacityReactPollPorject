@@ -48,7 +48,7 @@ describe("Login", () => {
     expect(loginButtonElement).toBeInTheDocument();
   });
 
-  it("check dashboard display after login", async () => {
+  it("check login page element dissapear after click login", async () => {
     await store.dispatch(handleInitialData());
 
     const loginView = render(

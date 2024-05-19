@@ -1,0 +1,674 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Login check dashboard display after login 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div />
+    <div>
+      <div>
+        <h3
+          class="h-body"
+        >
+          New Questions
+        </h3>
+        <div
+          class="card-holder"
+        >
+          <a
+            href="/questions/xj352vofupe1dqz9emx13r"
+          >
+            <div
+              class="card"
+            >
+              <div
+                class="card"
+                style="width: 14rem;"
+              >
+                <img
+                  class="card-img-top"
+                  src="https://tylermcginnis.com/would-you-rather/dan.jpg"
+                />
+                <div
+                  class="card-body"
+                >
+                  <div
+                    class="card-title h5"
+                  >
+                    mtsamis
+                  </div>
+                  <p
+                    class="card-text"
+                  >
+                    Mon May 01 2017
+                  </p>
+                </div>
+              </div>
+            </div>
+          </a>
+          <a
+            href="/questions/vthrdm985a262al8qx3do"
+          >
+            <div
+              class="card"
+            >
+              <div
+                class="card"
+                style="width: 14rem;"
+              >
+                <img
+                  class="card-img-top"
+                  src="https://tylermcginnis.com/would-you-rather/tyler.jpg"
+                />
+                <div
+                  class="card-body"
+                >
+                  <div
+                    class="card-title h5"
+                  >
+                    tylermcginnis
+                  </div>
+                  <p
+                    class="card-text"
+                  >
+                    Wed Mar 15 2017
+                  </p>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        <h3
+          class="h-body"
+        >
+          Done
+        </h3>
+        <div
+          class="card-holder"
+        >
+          <a
+            href="/questions/am8ehyc8byjqgar0jgpub9"
+          >
+            <div
+              class="card"
+            >
+              <div
+                class="card"
+                style="width: 14rem;"
+              >
+                <img
+                  class="card-img-top"
+                  src="https://tylermcginnis.com/would-you-rather/sarah.jpg"
+                />
+                <div
+                  class="card-body"
+                >
+                  <div
+                    class="card-title h5"
+                  >
+                    sarahedo
+                  </div>
+                  <p
+                    class="card-text"
+                  >
+                    Sat Mar 04 2017
+                  </p>
+                </div>
+              </div>
+            </div>
+          </a>
+          <a
+            href="/questions/loxhs1bqm25b708cmbf3g"
+          >
+            <div
+              class="card"
+            >
+              <div
+                class="card"
+                style="width: 14rem;"
+              >
+                <img
+                  class="card-img-top"
+                  src="https://tylermcginnis.com/would-you-rather/tyler.jpg"
+                />
+                <div
+                  class="card-body"
+                >
+                  <div
+                    class="card-title h5"
+                  >
+                    tylermcginnis
+                  </div>
+                  <p
+                    class="card-text"
+                  >
+                    Sat Dec 24 2016
+                  </p>
+                </div>
+              </div>
+            </div>
+          </a>
+          <a
+            href="/questions/6ni6ok3ym7mf1p33lnez"
+          >
+            <div
+              class="card"
+            >
+              <div
+                class="card"
+                style="width: 14rem;"
+              >
+                <img
+                  class="card-img-top"
+                  src="https://tylermcginnis.com/would-you-rather/dan.jpg"
+                />
+                <div
+                  class="card-body"
+                >
+                  <div
+                    class="card-title h5"
+                  >
+                    mtsamis
+                  </div>
+                  <p
+                    class="card-text"
+                  >
+                    Thu Jul 14 2016
+                  </p>
+                </div>
+              </div>
+            </div>
+          </a>
+          <a
+            href="/questions/8xf0y6ziyjabvozdd253nd"
+          >
+            <div
+              class="card"
+            >
+              <div
+                class="card"
+                style="width: 14rem;"
+              >
+                <img
+                  class="card-img-top"
+                  src="https://tylermcginnis.com/would-you-rather/sarah.jpg"
+                />
+                <div
+                  class="card-body"
+                >
+                  <div
+                    class="card-title h5"
+                  >
+                    sarahedo
+                  </div>
+                  <p
+                    class="card-text"
+                  >
+                    Wed Jun 29 2016
+                  </p>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div>
+      <h3
+        class="h-body"
+      >
+        New Questions
+      </h3>
+      <div
+        class="card-holder"
+      >
+        <a
+          href="/questions/xj352vofupe1dqz9emx13r"
+        >
+          <div
+            class="card"
+          >
+            <div
+              class="card"
+              style="width: 14rem;"
+            >
+              <img
+                class="card-img-top"
+                src="https://tylermcginnis.com/would-you-rather/dan.jpg"
+              />
+              <div
+                class="card-body"
+              >
+                <div
+                  class="card-title h5"
+                >
+                  mtsamis
+                </div>
+                <p
+                  class="card-text"
+                >
+                  Mon May 01 2017
+                </p>
+              </div>
+            </div>
+          </div>
+        </a>
+        <a
+          href="/questions/vthrdm985a262al8qx3do"
+        >
+          <div
+            class="card"
+          >
+            <div
+              class="card"
+              style="width: 14rem;"
+            >
+              <img
+                class="card-img-top"
+                src="https://tylermcginnis.com/would-you-rather/tyler.jpg"
+              />
+              <div
+                class="card-body"
+              >
+                <div
+                  class="card-title h5"
+                >
+                  tylermcginnis
+                </div>
+                <p
+                  class="card-text"
+                >
+                  Wed Mar 15 2017
+                </p>
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
+      <h3
+        class="h-body"
+      >
+        Done
+      </h3>
+      <div
+        class="card-holder"
+      >
+        <a
+          href="/questions/am8ehyc8byjqgar0jgpub9"
+        >
+          <div
+            class="card"
+          >
+            <div
+              class="card"
+              style="width: 14rem;"
+            >
+              <img
+                class="card-img-top"
+                src="https://tylermcginnis.com/would-you-rather/sarah.jpg"
+              />
+              <div
+                class="card-body"
+              >
+                <div
+                  class="card-title h5"
+                >
+                  sarahedo
+                </div>
+                <p
+                  class="card-text"
+                >
+                  Sat Mar 04 2017
+                </p>
+              </div>
+            </div>
+          </div>
+        </a>
+        <a
+          href="/questions/loxhs1bqm25b708cmbf3g"
+        >
+          <div
+            class="card"
+          >
+            <div
+              class="card"
+              style="width: 14rem;"
+            >
+              <img
+                class="card-img-top"
+                src="https://tylermcginnis.com/would-you-rather/tyler.jpg"
+              />
+              <div
+                class="card-body"
+              >
+                <div
+                  class="card-title h5"
+                >
+                  tylermcginnis
+                </div>
+                <p
+                  class="card-text"
+                >
+                  Sat Dec 24 2016
+                </p>
+              </div>
+            </div>
+          </div>
+        </a>
+        <a
+          href="/questions/6ni6ok3ym7mf1p33lnez"
+        >
+          <div
+            class="card"
+          >
+            <div
+              class="card"
+              style="width: 14rem;"
+            >
+              <img
+                class="card-img-top"
+                src="https://tylermcginnis.com/would-you-rather/dan.jpg"
+              />
+              <div
+                class="card-body"
+              >
+                <div
+                  class="card-title h5"
+                >
+                  mtsamis
+                </div>
+                <p
+                  class="card-text"
+                >
+                  Thu Jul 14 2016
+                </p>
+              </div>
+            </div>
+          </div>
+        </a>
+        <a
+          href="/questions/8xf0y6ziyjabvozdd253nd"
+        >
+          <div
+            class="card"
+          >
+            <div
+              class="card"
+              style="width: 14rem;"
+            >
+              <img
+                class="card-img-top"
+                src="https://tylermcginnis.com/would-you-rather/sarah.jpg"
+              />
+              <div
+                class="card-body"
+              >
+                <div
+                  class="card-title h5"
+                >
+                  sarahedo
+                </div>
+                <p
+                  class="card-text"
+                >
+                  Wed Jun 29 2016
+                </p>
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Login check login screen display 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div>
+        <h2
+          class="h-body"
+          data-testid="loginTitle"
+        >
+          Login
+        </h2>
+        <form
+          class=""
+        >
+          <label
+            class="form-label"
+          >
+            Select User
+          </label>
+          <select
+            class="mb-3 form-select"
+            data-testid="userSelect"
+          >
+            <option>
+              Chose user
+            </option>
+          </select>
+          <div
+            class="mb-3"
+          >
+            <label
+              class="form-label"
+            >
+              User ID
+            </label>
+            <input
+              class="form-control"
+              data-testid="userid"
+              disabled=""
+              placeholder="Enter user ID"
+              type="input"
+              value=""
+            />
+          </div>
+          <div
+            class="mb-3"
+          >
+            <label
+              class="form-label"
+            >
+              Password
+            </label>
+            <input
+              class="form-control"
+              data-testid="password"
+              disabled=""
+              placeholder="Enter password"
+              type="input"
+              value=""
+            />
+          </div>
+          <button
+            class="btn btn-primary"
+            data-testid="loginButton"
+            disabled=""
+            type="submit"
+          >
+            Submit
+          </button>
+        </form>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div>
+      <h2
+        class="h-body"
+        data-testid="loginTitle"
+      >
+        Login
+      </h2>
+      <form
+        class=""
+      >
+        <label
+          class="form-label"
+        >
+          Select User
+        </label>
+        <select
+          class="mb-3 form-select"
+          data-testid="userSelect"
+        >
+          <option>
+            Chose user
+          </option>
+        </select>
+        <div
+          class="mb-3"
+        >
+          <label
+            class="form-label"
+          >
+            User ID
+          </label>
+          <input
+            class="form-control"
+            data-testid="userid"
+            disabled=""
+            placeholder="Enter user ID"
+            type="input"
+            value=""
+          />
+        </div>
+        <div
+          class="mb-3"
+        >
+          <label
+            class="form-label"
+          >
+            Password
+          </label>
+          <input
+            class="form-control"
+            data-testid="password"
+            disabled=""
+            placeholder="Enter password"
+            type="input"
+            value=""
+          />
+        </div>
+        <button
+          class="btn btn-primary"
+          data-testid="loginButton"
+          disabled=""
+          type="submit"
+        >
+          Submit
+        </button>
+      </form>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

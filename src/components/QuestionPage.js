@@ -7,16 +7,23 @@ import ErrorPage from "./ErrorPage";
 import { handleAddAnswer } from "../actions/questions";
 
 const QuestionPage = ({ dispatch, authedUser, users, questions }) => {
-  const navigate = useNavigate();
   const questionId = useParams();
 
   const question = Object.values(questions).find(
     (question) => question.id === questionId.id
   );
 
+  if (!question) {
+    return <ErrorPage />;
+  }
+
   const author = Object.values(users).find(
     (user) => user.id === question.author
   );
+
+  if (!author) {
+    return <ErrorPage />;
+  }
 
   const isVotedForOptionOne = question.optionOne.votes.includes(authedUser.id);
   const isVotedForOptionTwo = question.optionTwo.votes.includes(authedUser.id);
@@ -40,18 +47,12 @@ const QuestionPage = ({ dispatch, authedUser, users, questions }) => {
   const handleSubmitOptionOne = (e) => {
     e.preventDefault();
     dispatch(handleAddAnswer(question.id, "optionOne"));
-    navigate("/");
   };
 
   const handleSubmitOptionTwo = (e) => {
     e.preventDefault();
     dispatch(handleAddAnswer(question.id, "optionTwo"));
-    navigate("/");
   };
-
-  if (!authedUser || !question || !author) {
-    return <ErrorPage />;
-  }
 
   return (
     <div>

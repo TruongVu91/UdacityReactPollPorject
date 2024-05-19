@@ -1,11 +1,12 @@
 import { useState } from "react";
 import { connect } from "react-redux";
 import { handleAddQuestion } from "../actions/questions";
+import { useNavigate } from "react-router-dom";
 import Form from "react-bootstrap/Form";
 import Button from "react-bootstrap/Button";
 
 const NewQuestion = ({ dispatch }) => {
-  //   const navigate = useNavigate();
+  const navigate = useNavigate();
   const [optionOneText, setOptionOneText] = useState("");
   const [optionTwoText, setOptionTwoText] = useState("");
 
@@ -25,6 +26,7 @@ const NewQuestion = ({ dispatch }) => {
 
     setOptionOneText("");
     setOptionTwoText("");
+    navigate("/");
   };
 
   return (

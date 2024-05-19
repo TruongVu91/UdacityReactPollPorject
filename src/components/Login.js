@@ -3,11 +3,13 @@ import { connect } from "react-redux";
 import Form from "react-bootstrap/Form";
 import Button from "react-bootstrap/Button";
 import { handleLogin } from "../actions/authedUser";
-import { Navigate } from "react-router-dom";
+import { Navigate, useLocation, useNavigate } from "react-router-dom";
 
 const Login = ({ dispatch, isLogin, users }) => {
   const [userId, setUserId] = useState("");
   const [password, setPassword] = useState("");
+  const navigate = useNavigate();
+  const { state } = useLocation();
 
   if (isLogin) {
     const urlParams = new URLSearchParams(window.location.search);
@@ -27,6 +29,7 @@ const Login = ({ dispatch, isLogin, users }) => {
     dispatch(handleLogin(userId, password));
     setUserId("");
     setPassword("");
+    navigate(state?.path || "/");
   };
 
   return (

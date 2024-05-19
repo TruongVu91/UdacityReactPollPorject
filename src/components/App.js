@@ -17,19 +17,52 @@ const App = (props) => {
   }, []);
   return (
     <div className="container">
-      <NavBar />
+      {props.loggedIn && <NavBar />}
       <Routes>
         <Route path="/login" exact element={<Login />} />
-        <Route element={<PrivateWrap />}>
-          <Route path="/" exact element={<Dashboard />} />
-          <Route path="/new" exact element={<NewQuestion />} />
-          <Route path="/leader-board" exact element={<LeaderBoard />} />
-          <Route path="/questions/:id" element={<QuestionPage />} />
-        </Route>
-        <Route path="*" element={<ErrorPage />} />
+        <Route
+          path="/"
+          exact
+          element={
+            <PrivateWrap>
+              <Dashboard />
+            </PrivateWrap>
+          }
+        />
+        <Route
+          path="/add"
+          exact
+          element={
+            <PrivateWrap>
+              <NewQuestion />
+            </PrivateWrap>
+          }
+        />
+        <Route
+          path="/leaderboard"
+          exact
+          element={
+            <PrivateWrap>
+              <LeaderBoard />
+            </PrivateWrap>
+          }
+        />
+        <Route
+          path="/questions/:id"
+          element={
+            <PrivateWrap>
+              <QuestionPage />
+            </PrivateWrap>
+          }
+        />
+        <Route path="/404" exact element={<ErrorPage />} />
       </Routes>
     </div>
   );
 };
 
-export default connect()(App);
+const mapStateToProps = ({ authedUser }) => ({
+  loggedIn: !!authedUser,
+});
+
+export default connect(mapStateToProps)(App);

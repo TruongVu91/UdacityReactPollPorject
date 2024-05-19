@@ -1,9 +1,13 @@
 import { connect } from "react-redux";
-import { Outlet } from "react-router-dom";
-import Login from "./Login";
+import { Navigate, useLocation } from "react-router-dom";
 
-const PrivateWrap = ({ loggedIn }) => {
-  return loggedIn ? <Outlet /> : <Login />;
+const PrivateWrap = ({ children, loggedIn }) => {
+  const location = useLocation();
+  return loggedIn ? (
+    children
+  ) : (
+    <Navigate to="/login" replace state={{ path: location.pathname }} />
+  );
 };
 
 const mapStateToProps = ({ authedUser }) => ({
